@@ -1,0 +1,32 @@
+
+<!DOCTYPE html>
+<html>
+ 
+<head>
+   <title>Number Guesser</title>
+   <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+ 
+ <header>
+    <h1 class="number">Number<span class="guesser">Guesser</span></h1>
+ </header>
+
+ <form class="prevent-class"> 
+  <input class="enter-your-guess" type="number" placeholder="Enter Your Guess" min="1" max="100">
+   <div>
+     <button class="check-guess" disabled>Guess</button>
+     <button class="clear-button" disabled>Clear</button>
+   </div>
+  <p>Your Last Guess Was</p>
+  <p class="user-guess">--</p>
+  <p class="lowOrHi"></p> 
+  <button class="reset-button" disabled>Reset</button>
+ </form>
+
+<script src="index.js"></script>
+
+</body> 
+
+</html>
